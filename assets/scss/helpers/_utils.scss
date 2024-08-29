@@ -1,0 +1,35 @@
+// api
+$utilities: map-merge(
+  $utilities, (
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+
+.top-80{
+    top: 80%;
+}
+.top-md-50{
+    @include md{
+        top: 50%;
+    }
+}
+.gap-y-1{
+    gap: 0.5rem 0rem;
+}
+.gap-y-lg-5{
+ @include md{
+    gap: 1.5rem 0rem;
+ }
+}
+.letter-spacing-1{
+    letter-spacing: 0.5rem;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.border-bottom-neu-200{
+    border-bottom: 1px solid $neu-200;
+}

@@ -1,0 +1,79 @@
+.bg-theme{
+  border: none;
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: filter 0.4s;
+  &:hover{
+    filter: brightness(0.8);
+  }
+}
+.bg-theme-1{
+  background-image: url(/assets/images/theme-1-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-1.png);
+  }
+}
+.bg-theme-2{
+  background-image: url(/assets/images/theme-2-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-2.png);
+  }
+}
+.bg-theme-3{
+  background-image: url(/assets/images/theme-3-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-3.png);
+  }
+}
+.bg-theme-4{
+  background-image: url(/assets/images/theme-4-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-4.png);
+  }
+}
+.bg-theme-5{
+  background-image: url(/assets/images/theme-5-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-5.png);
+  }
+}
+.bg-theme-6{
+  background-image: url(/assets/images/theme-6-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-6.png);
+  }
+}
+.bg-theme-7{
+  background-image: url(/assets/images/theme-7-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-7.png);
+  }
+}
+.bg-theme-8{
+  background-image: url(/assets/images/theme-8-sm.png);
+  @include md{
+  background-image: url(/assets/images/theme-8.png);
+  }
+}
+.swiper-selected-article{
+  .card-text{
+    height: 4.5rem;
+    overflow: hidden;
+  }
+}
+.bg-banner-event-deco1{
+  background-image: url(/assets/images/bg-2-sm.png);
+  background-repeat: no-repeat;
+  background-position: 102% 102%;
+  @include lg{
+    background-image: url(/assets/images/bg-2.png);
+  }
+}
+.bg-banner-event-deco2{
+  @include md{
+  background-image: url(/assets/images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: 0% 102%;
+  }
+}

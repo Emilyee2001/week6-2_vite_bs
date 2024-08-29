@@ -1,0 +1,39 @@
+body{
+    letter-spacing: 0.05em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: inline-block;
+    color: inherit;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+.row{
+    margin-right: -12px;
+    margin-left: -12px;
+}

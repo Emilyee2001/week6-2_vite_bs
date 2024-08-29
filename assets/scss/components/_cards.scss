@@ -1,0 +1,145 @@
+.card-bg-white{
+  border: 0;
+  background-color: $white;
+  box-shadow: 0px 2px 8px 0px #6E6B6714;
+  border-radius: 20px;
+}
+
+.card-bg-white-hover{
+  a{
+    transition: 0.3s;
+    &:hover{
+      color: $accent-200;
+    }
+  }
+}
+
+.card-bg-white-active{
+  background-color: $accent-100;
+  color: $neu-600;
+  border-radius: .25rem;
+}
+
+.swiper-card-bg-white-sm{
+  .card-title{
+    color: $accent-200;
+    margin-bottom: 0.75rem;
+  }
+  .card-text{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .badge-group{
+    padding: .5rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .badge{
+    margin-right: 10px;
+  }
+  .btn-accent-text{
+    padding: 10px;
+    display: block;
+  }
+}
+
+.swiper-card-bg-white-lg{
+  @include lg{
+    .card-body{
+      padding: 2.5rem;
+    }
+    .card-title{
+      font-size: $h4-font-size;
+      margin-bottom: 1.5rem;
+    }
+    .card-text{
+      margin-bottom: 2.5rem;
+      display: flex-;
+      gap: 1.25rem;
+    }
+  }
+}
+
+.card-bg-primary-style{
+  border: none;
+  .card-title{
+    font-size: $h1-font-size;
+    color: $primary-400;
+  }
+  .card-text{
+    a{
+      transition: 0.3s;
+      &:hover{
+        color: $accent-200;
+      }
+    }
+  }
+  @include md{
+    .card-body{
+      font-weight: $font-weight-bold;
+      font-size: $h5-font-size;
+    }
+  }
+}
+
+.card-bg-primary{
+  padding: 1.5rem 0;
+  .card-title{
+    margin-bottom: 1.5rem;
+  }
+  .card-body{
+    padding: 1rem 0;
+  }
+  .card-text{
+    padding: 1.5rem 0;
+  }
+  .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
+.card-bg-img{
+  height: 236px;
+}
+.card-bg-img-hover{
+  transition: filter 0.4s;
+  &:hover{
+    filter: brightness(0.6);
+  }
+}
+.card-bg-img-badge{
+  display: inline-block;
+  width: 117px;
+  color: $accent-300;
+  background-color: $white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.swiper-card-bg-primary-style{
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid $neu-200;
+  .card-text{
+    color: $neu-400;
+  }
+}
+.swiper-card-bg-primary{
+  .card-body{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+  .card-title{
+    margin-bottom: .5rem;
+  }
+  .card-text{
+    margin-bottom: .75rem;
+  }
+}

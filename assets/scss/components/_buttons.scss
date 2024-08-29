@@ -1,0 +1,54 @@
+.btn-accent{
+    background-color: $accent-200;
+    color: $white;
+    &:hover{
+        background-color: $accent-300;
+        color: $white;
+    }
+}
+.btn-accent-text{
+    color: $accent-200;
+    font-weight: $font-weight-bold;
+    font-style: $h5-font-size;
+    &:hover{
+        color: $accent-300;
+    }
+}
+.btn-pc-lg{
+    @include lg{
+        padding: 1rem 1.5rem;
+    }
+}
+.btn-pad-lg{
+    @include md{
+        padding: 1rem 1.5rem;
+    }
+}
+
+.badge{
+    line-height: 1.5;
+    padding: 4px 8px;
+    background-color: $primary-300;
+    color: $primary-400;
+    &:hover{
+        background-color: $primary-400;
+        color: $white;
+        cursor: pointer;
+    }
+}
+.switcher-style{
+    background-color: transparent;
+    border: 1px solid $primary-400;
+    padding: .25rem 1.25rem;
+    color: $neu-500;
+    transition: 0.3s;
+    &:hover{
+        background-color: $neu-500;
+        color: $white;
+    }
+}
+.switcher-deco{
+    width: 80px;
+    height: 1px;
+    background-color: $neu-500;
+}
