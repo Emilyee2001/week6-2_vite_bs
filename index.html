@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首頁 - Vivre</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script type="module" crossorigin src="/week6-2_vite_bs/assets/main-5dc423a9.js"></script>
+  <link rel="stylesheet" href="/week6-2_vite_bs/assets/main-efa101c8.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg py-0">
+    <div class="container border-bottom border-neu-300">
+        <h1 class="mb-4 me-lg-6"><a href="index.html"><img src="/week6-2_vite_bs/assets/logo-510a992f.svg" alt="Vivre-logo"></a>
+        </h1>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeaderMenu" aria-controls="navbarTogglerHeaderMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerHeaderMenu">
+            <div class="w-100 d-lg-flex align-items-center">
+            <form class="d-flex my-5" role="search">
+                <input class="form-control rounded-pill bg-white" type="search" placeholder="搜尋文章" aria-label="Search">
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+            <ul class="navbar-nav mb-lg-0 mb-7 ms-auto me-lg-4 gap-5">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold p-2" href="article.html">所有文章</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold p-2" href="#">訂閱方案</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold p-2" href="#">關於我們</a>
+                </li>
+            </ul>
+            <div class="my-7 my-lg-6">
+                <button class="btn btn-accent btn-pc-lg w-100">登入 / 註冊</button>
+            </div>
+        </div>
+    </div>
+</nav>  </header>
+  <section class="container px-0">
+    <div data-aos="fade-up" class="position-relative my-lg-10">
+      <picture>
+        <source media="(min-width: 768px)" srcset="/week6-2_vite_bs/assets/banner-ff141a3d.png ">
+        <img class="w-100" src="/week6-2_vite_bs/assets/banner-sm-1a33f8cf.png" alt="vivre-banner">
+      </picture>
+      <div class="w-100 position-absolute top-80 top-md-50 start-50 translate-middle text-center text-md-start ps-md-9">
+        <h3 class="fs-6 fs-lg-5 mb-1 text-white">獻給新世代的生活風格誌</h3>
+        <h2 class="fs-3 fs-lg-1 fw-bolder mb-4 text-white">一起探索生活的無限可能</h2>
+        <button class="btn btn-accent btn-pc-lg" type="button">馬上訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div data-aos="fade-up" class="py-8 py-lg-10">
+      <h4 class="fs-lg-3 mb-5">熱門主題</h4>
+      <ul class="row row-cols-lg-4 row-cols-md-2 row-cols-1 gap-y-1 gap-y-lg-5">
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-1">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">城市漫遊者</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-3">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">秘境尋蹤人</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-5">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">品味設計家</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-8">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">美食探險記</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-2">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">美學建築誌</a>
+            </h5>
+          </div>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-4">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">慢活生活行</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-6">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">工藝匠心賞</a>
+            </h5>
+          </div>
+        </li>
+        <li class="col">
+          <div class="card bg bg-theme bg-theme-7">
+            <h5 class=" py-6 py-md-10 text-center">
+              <a href="#" class="stretched-link text-white fs-6 fs-md-5">時尚先鋒派</a>
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="container swiper-selected-article">
+    <div data-aos="fade-up" class="py-8 py-lg-10 d-md-none">
+      <h4 class="fs-lg-3 mb-5">精選文章</h4>
+        <!-- Swiper -->
+      <div class="swiper bannerSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card rounded-0 border-0 border-bottom">
+              <img src="/week6-2_vite_bs/assets/articles-1-ebc46e31.png" class="card-img-top" alt="outdoor">
+              <div class="card-body">
+                <h5 class="card-title">私人島嶼的露營奇遇記</h5>
+                <p class="card-text">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
+                <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 rounded-0 border-bottom">
+              <img src="/week6-2_vite_bs/assets/articles-2-05d8b79f.png" class="card-img-top" alt="food">
+              <div class="card-body">
+                <h5 class="card-title text-truncate">窺探米其林三星主廚的絕密手藝</h5>
+                <p class="card-text">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+                <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mt-7">
+        <p class="m-0 letter-spacing-1">1/5</p>
+        <div class="d-flex align-items-center gap-2 ms-auto">
+          <button class="switcher-style rounded-pill"><i class="bi bi-arrow-left"></i></button>
+          <div class="switcher-deco"></div>
+          <button class="switcher-style rounded-pill"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-up" class="py-8 py-lg-10 d-none d-md-block d-lg-none">
+      <h4 class="fs-lg-3 mb-5">精選文章</h4>
+        <!-- Swiper -->
+      <div class="swiper bannerSwiper-md">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card border-0 rounded-0 border-bottom">
+              <img src="/week6-2_vite_bs/assets/articles-1-ebc46e31.png" class="card-img-top" alt="outdoor">
+              <div class="card-body">
+                <h5 class="card-title">私人島嶼的露營奇遇記</h5>
+                <p class="card-text">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
+                <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 rounded-0 border-bottom">
+              <img src="/week6-2_vite_bs/assets/articles-2-05d8b79f.png" class="card-img-top" alt="food">
+              <div class="card-body">
+                <h5 class="card-title text-truncate">窺探米其林三星主廚的絕密手藝</h5>
+                <p class="card-text">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+                <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 rounded-0 border-bottom">
+              <img src="/week6-2_vite_bs/assets/articles-1-ebc46e31.png" class="card-img-top" alt="outdoor">
+              <div class="card-body">
+                <h5 class="card-title">私人島嶼的露營奇遇記</h5>
+                <p class="card-text">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
+                <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mt-7">
+        <p class="m-0 letter-spacing-1">1/5</p>
+        <div class="d-flex align-items-center gap-2 ms-auto">
+          <button class="switcher-style rounded-pill"><i class="bi bi-arrow-left"></i></button>
+          <div class="switcher-deco"></div>
+          <button class="switcher-style rounded-pill"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 py-lg-10 d-none d-lg-block">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="h-100 d-flex flex-column">
+            <h4 class="fs-lg-3 mb-5">精選文章</h4>
+            <div class="mt-auto">
+              <p class="m-0 letter-spacing-1">1/5</p>
+              <div class="d-flex align-items-center gap-2 mt-6">
+                <button class="switcher-style rounded-pill"><i class="bi bi-arrow-left"></i></button>
+                <div class="switcher-deco"></div>
+                <button class="switcher-style rounded-pill"><i class="bi bi-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="col-lg-8">
+          <div class="swiper bannerSwiper-md">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card border-0 rounded-0 border-bottom">
+                  <img src="/week6-2_vite_bs/assets/articles-1-ebc46e31.png" class="card-img-top" alt="outdoor">
+                  <div class="card-body">
+                    <h5 class="card-title">私人島嶼的露營奇遇記</h5>
+                    <p class="card-text">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
+                    <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card border-0 rounded-0 border-bottom">
+                  <img src="/week6-2_vite_bs/assets/articles-2-05d8b79f.png" class="card-img-top" alt="food">
+                  <div class="card-body">
+                    <h5 class="card-title text-truncate">窺探米其林三星主廚的絕密手藝</h5>
+                    <p class="card-text">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...</p>
+                    <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card border-0 rounded-0 border-bottom">
+                  <img src="/week6-2_vite_bs/assets/articles-1-ebc46e31.png" class="card-img-top" alt="outdoor">
+                  <div class="card-body">
+                    <h5 class="card-title">私人島嶼的露營奇遇記</h5>
+                    <p class="card-text">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
+                    <a href="#" class="btn-accent-text stretched-link py-1">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-primary-200">
+    <div class="container bg-banner-event-deco1">
+      <div data-aos="fade-up" class="py-8 py-lg-10 bg-banner-event-deco2">
+        <div class="m-auto d-flex flex-column align-items-center">
+          <h5 class="text-accent-200 mb-2 fs-md-4">\ 母親節強檔活動 / </h5>
+          <h4 class="mb-5 fs-md-2">家庭訂閱方案限時 7 折</h4>
+          <ul class="text-neu-400 mb-5 mb-lg-7">
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>每月最新文章無限閱讀</li>
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>專屬會員限定內容</li>
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>定期電子報</li>
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>年度精選禮物</li>
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>24 /7 優先客戶服務</li>
+            <li class="mb-3"><i class="bi bi-check-lg me-2"></i>為每個成員量身打造專屬行程</li>
+          </ul>
+          <button class="btn btn-accent btn-pad-lg">我想了解</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div data-aos="fade-up" class="py-8 py-lg-10">
+      <h4 class="fs-lg-3 mb-5">大家都在看</h4>
+        <!-- Swiper -->
+      <div class="swiper swiperCardWhite d-lg-none">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card card-bg-white swiper-card-bg-white-sm">
+              <div class="card-body">
+                <h5 class="card-title">酒精路跑地圖</h5>
+                <ul class="card-text">
+                  <li>｜城市酒吧人氣榜,盤點當紅熱門酒吧</li>
+                  <li>｜你要的調酒師在這裡！五月全台酒...</li>
+                  <li>｜台南老宅手工酒藏,尋味百年人文釀意</li>
+                </ul>
+                <img src="/week6-2_vite_bs/assets/hots-1-sm-d41ead80.png" class="card-img-top" alt="bar">
+                <div class="badge-group">
+                  <a class="badge" href="#">#夜貓行程</a>
+                  <a class="badge" href="#">#barhopping</a>
+                  <a class="badge" href="#">#全台酒吧</a>
+                </div>
+                <div class="text-center"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-bg-white swiper-card-bg-white-sm">
+              <div class="card-body">
+                <h5 class="card-title">台北拉麵圖鑑</h5>
+                <ul class="card-text">
+                  <li>｜城市酒吧人氣榜,盤點當紅熱門酒吧</li>
+                  <li>｜你要的調酒師在這裡！五月全台酒...</li>
+                  <li>｜台南老宅手工酒藏,尋味百年人文釀意</li>
+                </ul>
+                <img src="/week6-2_vite_bs/assets/hots-3-sm-5ceb5458.png" class="card-img-top" alt="ramen">
+                <div class="badge-group">
+                  <a class="badge" href="#">#雞白湯</a>
+                  <a class="badge" href="#">#拉麵</a>
+                  <a class="badge" href="#">#台北美食</a>
+                </div>
+                <div class="text-center"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-bg-white swiper-card-bg-white-sm">
+              <div class="card-body">
+                <h5 class="card-title">海島自由行</h5>
+                <ul class="card-text">
+                  <li>｜私島慢活島嶼生活 - 在熱帶天堂品...</li>
+                  <li>｜海島漂流記 - 在陽光、沙灘和比基...</li>
+                  <li>｜島嶼蹤跡 - 揭開加勒比海上世外桃...</li>
+                </ul>
+                <img src="/week6-2_vite_bs/assets/hots-4-sm-9226d072.png" class="card-img-top" alt="beach">
+                <div class="badge-group">
+                  <a class="badge" href="#">#熱帶國家</a>
+                  <a class="badge" href="#">#海邊</a>
+                  <a class="badge" href="#">#無敵海景</a>
+                </div>
+                <div class="text-center"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-bg-white swiper-card-bg-white-sm">
+              <div class="card-body">
+                <h5 class="card-title">短天數出國推薦</h5>
+                <ul class="card-text">
+                  <li>｜72小時東京遊走 - 當個時尚東京通</li>
+                  <li>｜48小時曼谷遊玩全攻略 </li>
+                  <li>｜三天兩夜賞櫻微醺東京</li>
+                </ul>
+                <img src="/week6-2_vite_bs/assets/hots-5-sm-42a757ac.png" class="card-img-top" alt="oversea">
+                <div class="badge-group">
+                  <a class="badge" href="#">#說走就走</a>
+                  <a class="badge" href="#">#出國玩</a>
+                  <a class="badge" href="#">#東亞</a>
+                </div>
+                <div class="text-center"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card card-bg-white swiper-card-bg-white-sm">
+              <div class="card-body">
+                <h5 class="card-title">週末露營趣</h5>
+                <ul class="card-text">
+                  <li>｜週末說走就走露營記</li>
+                  <li>｜城市野營日記</li>
+                  <li>｜和寵物去露營 - 大自然之旅的雙倍...</li>
+                </ul>
+                <img src="/week6-2_vite_bs/assets/hots-2-sm-e66a826f.png" class="card-img-top" alt="outdoor">
+                <div class="badge-group">
+                  <a class="badge" href="#">#戶外</a>
+                  <a class="badge" href="#">#露營控</a>
+                  <a class="badge" href="#">#凹豆</a>
+                </div>
+                <div class="text-center"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="d-none d-lg-block">
+        <div class="row">
+          <div class="col-lg-3">
+            <div data-aos="zoom-in" class="h-100 card-bg-white p-5">
+              <ul class="fs-5 card-bg-white-hover">
+                <li><a class="p-3 d-block card-bg-white-active" href="#">•酒精路跑地圖</a></li>
+                <li><a class="p-3 d-block" href="#">•台北拉麵圖鑑</a></li>
+                <li><a class="p-3 d-block" href="#">•海島自由行</a></li>
+                <li><a class="p-3 d-block" href="#">•短天數出國推薦</a></li>
+                <li><a class="p-3 d-block" href="#">•週末露營趣</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div data-aos="zoom-in" class="card card-bg-white swiper-card-bg-white-sm swiper-card-bg-white-lg">
+              <div class="card-body">
+                <h5 class="card-title">酒精路跑地圖</h5>
+                <ul class="card-text card-bg-white-hover">
+                  <li><a href="#">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a></li>
+                  <li><a href="#">｜你要的調酒師在這裡！五月全台酒...</a></li>
+                  <li><a href="#">｜台南老宅手工酒藏,尋味百年人文釀意</a></li>
+                </ul>
+                <div class="d-flex gap-1 rounded-5 overflow-hidden">
+                  <img src="/week6-2_vite_bs/assets/hots-1-4140643e.png" class="w-25" alt="bar">
+                  <img src="/week6-2_vite_bs/assets/hots-2-0511cb4f.png" class="w-25" alt="bar">
+                  <img src="/week6-2_vite_bs/assets/hots-3-1a547610.png" class="w-25" alt="bar">
+                  <img src="/week6-2_vite_bs/assets/hots-4-ec19ac92.png" class="w-25" alt="bar">
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="badge-group">
+                    <a class="badge" href="#">#夜貓行程</a>
+                    <a class="badge" href="#">#barhopping</a>
+                    <a class="badge" href="#">#全台酒吧</a>
+                  </div>
+                  <div class="text-center ms-auto"><a href="#" class="btn-accent-text">View More<i class="bi bi-arrow-right ms-2"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="py-8 py-lg-10">
+      <h4 class="fs-lg-3 mb-5">品味生活</h4>
+      <div class="row row-cols-lg-3 row-cols-1">
+        <div data-aos="fade-up"  class="col">
+          <div class="card card-bg-primary card-bg-primary-style">
+            <h5 class="card-title">食.</h5>
+            <img src="/week6-2_vite_bs/assets/life-1-sm-8a01f225.png" class="card-img-top" alt="life">
+            <div class="card-body">
+              <ul class="card-text">
+                <li class="text-truncate"><a href="#">｜米其林三星主廚的那些絕活傳奇</a></li>
+                <li class="text-truncate"><a href="#">｜探秘成都的地道川味秘技與魅力</a></li>
+                <li class="text-truncate"><a href="#">｜義大利釀酒師對於酒的堅持執著</a></li>
+              </ul>
+              <div><a href="#" class="d-block btn-accent-text text-center py-1">View More<i class="bi bi-arrow-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up"  class="col">
+          <div class="card card-bg-primary card-bg-primary-style">
+            <h5 class="card-title">藝.</h5>
+            <img src="/week6-2_vite_bs/assets/life-2-sm-2f266476.png" class="card-img-top" alt="art">
+            <div class="card-body">
+              <ul class="card-text">
+                <li class="text-truncate"><a href="#">｜解構教主級時裝設計大師的獨特美學</a></li>
+                <li class="text-truncate"><a href="#">｜當代攝影師鏡頭中的光影離奇</a></li>
+                <li class="text-truncate"><a href="#">｜義大利釀酒師對於酒的堅持執著</a></li>
+              </ul>
+              <div><a href="#" class="d-block btn-accent-text text-center py-1">View More<i class="bi bi-arrow-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up"  class="col">
+          <div class="card card-bg-primary card-bg-primary-style">
+            <h5 class="card-title">旅.</h5>
+            <img src="/week6-2_vite_bs/assets/life-3-sm-406b207e.png" class="card-img-top" alt="life">
+            <div class="card-body">
+              <ul class="card-text">
+                <li class="text-truncate"><a href="#">｜遠離喧囂,偶探巴塔哥尼亞終界</a></li>
+                <li class="text-truncate"><a href="#">｜東京深度六區,帶你細品極簡魅力</a></li>
+                <li class="text-truncate"><a href="#">｜專賣奇珍異寶的東歐地下夜市</a></li>
+              </ul>
+              <div><a href="#" class="d-block btn-accent-text text-center py-1">View More<i class="bi bi-arrow-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="bg-primary-200">
+    <div class="container">
+      <div class="py-8 py-lg-10 d-lg-none">
+        <div class="text-center mb-8">
+          <p>今天又不知道要去哪裡了嗎？</p>
+          <img class="mb-3" src="/week6-2_vite_bs/assets/logo-510a992f.svg" alt="vivre-logo">
+          <h4 class="mb-5">給你意想不到生活風格提案</h4>
+          <button class="btn btn-accent">馬上訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+        </div>
+        <!-- Swiper -->
+        <div>
+          <div class="swiper swiperCardImg-sm py-4 d-md-none">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-2-28f2afc5.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>人氣行程</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">親子露營要帶什麼？</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/theme-5-b39e8856.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">質感房間改造攻略！</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-1-1192f106.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">山女孩的健行筆記</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-3-6cd4e17c.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>熱門文章</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">適合溜小孩的海邊景點推薦</a></h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper swiperCardImg-md py-4 d-none d-md-block">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-2-28f2afc5.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>人氣行程</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">親子露營要帶什麼？</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/theme-5-b39e8856.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">質感房間改造攻略！</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-1-1192f106.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">山女孩的健行筆記</a></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-3-6cd4e17c.png);">
+                  <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>熱門文章</span>
+                  <div class="mt-auto">
+                    <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">適合溜小孩的海邊景點推薦</a></h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="py-8 py-lg-10 d-lg-block d-none">
+        <div class="row">
+          <div  data-aos="fade-left" class="col-lg-6 d-flex">
+            <div class="my-auto">
+              <p class="fs-5 fw-bolder">今天又不知道要去哪裡了嗎？</p>
+              <div class="d-flex mb-4 flex-wrap">
+                <img class="me-2 mb-3" src="/week6-2_vite_bs/assets/logo-510a992f.svg" alt="vivre-logo">
+                <h4 class="fs-2 fw-bolder mb-3">給你意想不到生活風格提案</h4>
+              </div>
+              <button class="btn btn-accent btn-pc-lg">馬上訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+            </div>
+          </div>
+          <div  data-aos="fade-up" class="col-lg-3">
+            <div class="mt-10 mb-7 card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-2-28f2afc5.png);">
+              <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>人氣行程</span>
+              <div class="mt-auto">
+                <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">親子露營要帶什麼？</a></h5>
+              </div>
+            </div>
+            <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/theme-5-b39e8856.png);">
+              <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+              <div class="mt-auto">
+                <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">質感房間改造攻略！</a></h5>
+              </div>
+            </div>
+          </div>
+          <div  data-aos="fade-up" class="col-lg-3">
+            <div class="mb-7 card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-1-1192f106.png);">
+              <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>編輯推薦</span>
+              <div class="mt-auto">
+                <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">山女孩的健行筆記</a></h5>
+              </div>
+            </div>
+            <div class="card bg card-bg-img card-bg-img-hover position-relative" style="background-image: linear-gradient(rgba(33,37,41,0.05) 80%, rgba(33,37,41) 100%) ,url(/week6-2_vite_bs/assets/projects-3-6cd4e17c.png);">
+              <span class="card-bg-img-badge"><i class="bi bi-play-fill"></i>熱門文章</span>
+              <div class="mt-auto">
+                <h5 class="p-3"><a href="#" class="text-primary-100 stretched-link">適合溜小孩的海邊景點推薦</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="text-center py-8 d-lg-flex justify-content-between">
+        <h4 class="mb-3 fs-lg-2">想看什麼主題由你決定！</h4>
+        <div class="text-lg-end">
+            <h5 class="mb-6 mb-lg-3" fs-lg-4>歡迎投稿與我們分享</h5>
+            <button class="btn btn-accent btn-pc-lg">聯絡我們</button>
+        </div>
+    </div>
+</div>
+  <footer>
+    <div class="border-top border-neu-300 text-center">
+    <p class="m-0 py-4 text-neu-400">©Vivre 2024 All right Reserved</p>
+</div>  </footer>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
